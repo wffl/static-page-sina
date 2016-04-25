@@ -1,0 +1,542 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+   <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <script src="js/jquery-2.2.3.js" type="text/javascript"></script>
+     <title>新浪首页</title>
+     <link rel="shortcut icon" sizes="any" href="images/sinafavicon.ico">
+	 <link href="css/reset.css" type="text/css" rel="stylesheet" >
+     <link href="css/sina.css" type="text/css" rel="stylesheet" >
+     
+   </head>
+   <body> 
+    
+        <!-- FIRST_LINE -->
+        <div class="bar">
+            <div class="topNav">
+                <span>设为首页</span>
+                <span>手机新浪网</span>
+                <span class="mobile">
+                    <span class="title">移动客户端</span><span class="arrow"></span>
+                    <ul id="mob" style="display:none;">
+                        <li>移动客户端</li>
+                        <li>新浪微博</li>
+                        <li>新浪新闻</li>
+                        <li>新浪体育</li>
+                        <li>新浪娱乐</li>
+                        <li>新浪财经</li>
+                        <li>新浪博客</li>
+                        <li>天气通</li>
+                        <li>新浪游戏</li>
+                    </ul>
+                </span>   
+            </div>
+            <div class="bar-right">
+                <span>
+                    <span>登录</span>
+                    <div  id="loginto" style="display:none">
+                        loginto
+                    </div>
+                </span>
+                <span class="sinaweibo">
+                    <span>微博</span><span class="arrow"></span>
+                    <ul id="weibo" style="display:none">
+                        <li>私信</li>
+                        <li>评论</li>
+                        <li>@我</li>
+                    </ul>
+                </span>
+                <span class="sinablog">
+                    <span>博客</span><span class="arrow"></span>
+                    <ul id="blog" style="display:none">
+                        <li>博客评论</li>
+                        <li>未读提醒</li>
+                    </ul>
+                </span>
+                <span class="sinamailbox">
+                    <span>邮箱</span><span class="arrow"></span>
+                    <ul id="mailbox" style="display:none">
+                        <li>免费邮箱</li>
+                        <li>VIP邮箱</li>
+                        <li>企业邮箱</li>
+                    </ul>
+                </span>
+                <span>网站导航</span>
+            </div>
+        </div>
+
+     
+        
+    <div class="main-content">
+        <!-- TOP-SEARCH -->
+        <div class="top-search-wrap">
+            <div class="fn-clear">
+                <div class="search-img">
+                    <a class="sina-logo" href="http://sina.com.cn">
+                        <img src="images/sina-logo.png"/>
+                    </a>
+                </div>
+            
+                <div class="search-box">
+                    <div class="search-intext">
+                        <div class="search-type">
+                                <div>微博<span class="arrow"></span></div>
+                                <ul id="search-weibo" style="display:none">
+                                    <li>新闻</li>
+                                    <li>图片</li>
+                                    <li>博客</li>
+                                    <li>视频</li>
+                                    <li>更多>></li>
+                                </ul>
+                        </div>
+                        <div class="search-text">
+                            <input type="text" value="请输入关键字" style="border: none;">
+                        </div>
+                    </div>
+                    <div class="search-sub">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="weather-box">
+                <span>郑州</span>
+                <span>
+                    <img width="32" height="32" src="http://i1.sinaimg.cn/dy/weather/main/index14/007/icons_32_yl/w_02_08_00.png" title="多云">
+                </span>
+                <span>25C</span>
+                </div>
+                <div class="jdjb">
+                    <a href="http://news.sina.com.cn/z/wljbxz/" class="nwsu" target="_blank"></a>
+                </div>
+                <div class="hxjzg">
+                    <a href="http://news.sina.com.cn/pc/2014-10-30/326/3095.html" class="hxjzg" target="_blank"></a>
+                </div>
+                
+
+            </div>
+        </div>
+
+
+	     <!-- NAV_BEGIN -->
+
+        <div class="main-nav">
+            <div class="nav-mod-1">
+                <ul class="fn-clear">
+                    <li><a href="http://news.sina.com.cn/" target="_blank"><b>新闻</b></a></li>
+                    <li><a href="http://mil.news.sina.com.cn" target="_blank">军事</a></li>
+                    <li><a href="http://news.sina.com.cn/society/" target="_blank">社会</a></li>
+                    <li><a href="http://finance.sina.com.cn/" target="_blank"><b>财经</b></a></li>
+                    <li><a href="http://finance.sina.com.cn/stock/" target="_blank">股票</a></li>
+                    <li><a href="http://finance.sina.com.cn/forex/" target="_blank">外汇</a></li>
+                    <li><a href="http://tech.sina.com.cn/" target="_blank"><b>科技</b></a></li>
+                    <li><a href="http://mobile.sina.com.cn/" target="_blank">手机</a></li>
+                    <li><a href="http://tech.sina.com.cn/discovery/" target="_blank">探索</a></li>
+                </ul>
+            </div>
+            <div class="nav-mod-11">
+                <ul class="fn-clear">
+                    <li><a href="http://sports.sina.com.cn/" target="_blank"><b>体育</b></a></li>
+                    <li style="width:36px;"><a href="http://sports.sina.com.cn/nba/" target="_blank">NBA</a></li>
+                    <li><a href="http://sports.sina.com.cn/csl/" target="_blank">中超</a></li>
+                    <li><a href="http://ent.sina.com.cn/" target="_blank"><b>娱乐</b></a></li>
+                    <li style="width:36px;"><a href="http://ent.sina.com.cn/star/" target="_blank">明星</a></li>
+                    <li><a href="http://astro.sina.com.cn/" target="_blank">星座</a></li>
+                    <li><a href="http://auto.sina.com.cn/" target="_blank"><b>汽车</b></a></li>
+                    <li style="width:36px;"><a href="http://dealer.auto.sina.com.cn/price/" target="_blank">报价</a></li>
+                    <li><a href="http://data.auto.sina.com.cn/" target="_blank">买车</a></li>
+                </ul>
+            </div>
+            <div class="nav-mod-11">
+                <ul class="fn-clear">
+                    <li><a href="http://blog.sina.com.cn/" target="_blank"><b>博客</b></a></li>
+                    <li style="width:36px;"><a href="http://zhuanlan.sina.com.cn/" target="_blank">专栏</a></li>
+                    <li><a href="http://weather.sina.com.cn/" target="_blank">天气</a></li>
+                    <li><a href="http://video.sina.com.cn/" target="_blank"><b>视频</b></a></li>
+                    <li style="width:36px;"><a href="http://ent.sina.com.cn/zongyi/" target="_blank">综艺</a></li>
+                    <li><a href="http://baby.sina.com.cn/" target="_blank">育儿</a></li>
+                    <li><a href="http://house.sina.com.cn/" target="_blank"><b>房产</b></a></li>
+                    <li style="width:36px;"><a href="http://esf.sina.com.cn/" target="_blank">二手房</a></li>
+                    <li><a href="http://jiaju.sina.com.cn/" target="_blank">家居</a></li>
+                </ul>
+            </div>
+            <div class="nav-mod-1">
+                <ul class="fn-clear">
+                    <li><a href="http://book.sina.com.cn/" target="_blank"><b>读书</b></a></li>
+                    <li><a href="http://history.sina.com.cn/" target="_blank">历史</a></li>
+                    <li><a href="http://photo.sina.com.cn/" target="_blank">图片</a></li>
+                    <li><a href="http://edu.sina.com.cn/" target="_blank"><b>教育</b></a></li>
+                    <li><a href="http://edu.sina.com.cn/a/" target="_blank">出国</a></li>					
+                    <li><a href="http://health.sina.com.cn/" target="_blank">健康</a></li>
+                    <li><a href="http://fashion.sina.com.cn/" target="_blank"><b>时尚</b></a></li>
+                    <li><a href="http://eladies.sina.com.cn/" target="_blank">女性</a></li>
+                    <li><a href="http://collection.sina.com.cn/" target="_blank">收藏</a></li>
+                </ul>
+            </div>
+            <div class="nav-mod-1">
+                <ul class="fn-clear">
+                    <li><a href="http://city.sina.com.cn/" target="_blank"><b>城市</b></a></li>
+                    <li><a href="http://www.51xiancheng.com/" target="_blank">鲜城</a></li>
+                    <li id="SI_Nav_City"><a href="http://sh.sina.com.cn/" target="_blank">上海</a></li>
+                    <li><a href="http://travel.sina.com.cn/" target="_blank"><b>旅游</b></a></li>
+                    <li><a href="http://sky.news.sina.com.cn/" target="_blank">航空</a></li>
+                    <li><a href="http://um.auto.sina.com.cn/" suda-uatrack="key=index_www_drive&value=drive_click" target="_blank">车致</a></li>
+                    <li><a href="http://bbs.sina.com.cn/" target="_blank"><b>论坛</b></a></li>
+                    <li><a href="http://slide.photo.sina.com.cn/" target="_blank">高清</a></li>
+                    <li><a id="navLinkShow" href="http://show.sina.com.cn/" target="_blank">SHOW</a></li>
+                </ul>
+            </div>
+            <div class="nav-mod-11">
+                <ul class="fn-clear">
+                    <li><a href="http://games.sina.com.cn/" target="_blank"><b>游戏</b></a></li>
+                    <li style="width:36px;"><a href="http://qipai.sina.com.cn/" target="_blank">棋牌</a></li>
+                    <li><a href="http://game.weibo.com/" target="_blank">页游</a></li>
+                    <li><a href="http://fo.sina.com.cn/" target="_blank"><b>佛学</b></a></li>
+                    <li style="width:36px;"><a href="http://golf.sina.com.cn/" target="_blank">高尔夫</a></li>
+                    <li><a href="http://lottery.sina.com.cn/" target="_blank">彩票</a></li>
+                    <li><a href="http://app.sina.com.cn/?f=p_dh&amp;w=p_dh" target="_blank"><b>应用</b></a></li>
+                    <li style="width:36px;"><a href="http://app.sina.com.cn/installs.php?f=p_dh&amp;w=p_dh" target="_blank">必备</a></li>
+                    <li><a href="http://www.97973.com/" target="_blank">手游</a></li>
+                </ul>
+            </div>
+            <div class="nav-mod-2">
+                <ul class="fn-clear">
+                    <li><a href="http://search.sina.com.cn/" target="_blank">搜索</a></li>
+                    <li style="width:40px;"><a href="http://chexian.sina.com/" target="_blank">车险</a></li>
+                    <li><a href="http://weibo.com/" target="_blank">微博</a></li>
+					<li><a href="http://sifa.sina.com.cn/" target="_blank">法院</a></li>
+                    <li style="width:40px;"><a href="http://help.sina.com.cn/index.php" target="_blank">客服</a></li>
+                    <li><a href="http://mail.sina.com.cn/" target="_blank">邮箱</a></li>
+                    <li><a href="http://gongyi.sina.com.cn/" target="_blank">公益</a></li>
+                    <li style="width:40px;"><a href="http://english.sina.com/" target="_blank">English</a></li>
+                    <li><a href="http://news.sina.com.cn/guide/" target="_blank">导航</a></li>
+                </ul>
+            </div>
+        </div>
+
+<!-- NAV_END -->
+<!--ADS_BEGIN-->
+        <div class="ads-list">
+            <ul class="fn-clear">
+                <li>ad1</li>
+                <li>ad2</li>
+                <li>ad3</li>
+                <li>ad4</li>
+                <li>ad5</li>
+                <li>ad6</li>
+                <li>ad7</li>
+                <li>ad8</li>
+            </ul>
+            <img border="0" src="images/ads-top.jpg" style="width:1000px;height:90px;border:0" alt="美玉">
+            <ul class="fn-clear">
+                <li>adA</li>
+                <li>adB</li>
+                <li>adC</li>
+                <li>adD</li>
+                <li>adE</li>
+                <li>adF</li>
+                <li>adG</li>
+                <li>adH</li>
+            </ul>
+        </div>
+         <!--ADS_END-->
+        <!--PART_A_BEGIN-->
+        <div class="part-a">
+
+            <div class="part-a-left">
+                <div class="aleft-1">
+                    <img border="0" src="http://d1.leju.com/ia/2016/03/30/f56fb2cfa3cc40img.jpg"  alt="http://d1.leju.com/ia/2016/03/30/f56fb2cfa3cc40img.jpg"/>
+                </div>
+                <div class="aleft-2">
+                    <img src="images/A.jpg"/>
+                </div>
+                <div class="aleft-3">
+                    <img src="images/B.jpg"/>
+                </div>
+                <div class="aleft-4">
+                    <ul id="al4-items" class="fn-clear">
+                        <li>教育</li>
+                        <li>热卖</li>
+                        <li>新款</li>
+                        <li style="border-right:1px solid #DBDEE1;">淘宝</li>
+                    </ul>
+                    <div id="al4-wrap">
+                    <div><img src="images/C.jpg"/></div>
+                    <div style="display:none"><img src="images/D.jpg"/></div>
+                    <div style="display:none"><img src="images/E.jpg"/></div>
+                    <div style="display:none"><img src="images/F.jpg"/></div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="part-a-middle">
+                <div class="amiddle-1">
+                    <div class="amiddle-top">
+                        <span class="picture">图片</span>
+                        <span class="special-column">专栏</span>
+                        <span class="hot-news">热点</span>
+                    </div>
+                    <div id="amid1-picture">
+                        <div class="amid1-pic">
+                            <div class="blank-picture">
+                                <img src="images/1.jpg"/>
+                                <p>picture-mid-11</p>
+                            </div>
+                            <div class="blank-picture" id="blank-picture12">
+                                <img src="images/2.jpg"/>
+                                <p>picture-mid-12</p>
+                            </div>
+                            <div class="blank-picture">
+                                <img src="images/3.jpg"/>
+                                <p>picture-mid-13</p>
+                            </div>
+                        </div>
+                        <div>
+                            <ul>
+                                <li>amiddle-1<li>
+                                <li>amiddle-1<li>
+                                <li>amiddle-1<li>
+                                <li>amiddle-1<li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="amiddle-2">
+                    <div class="amiddle-top">
+                        <span class="vedio">视频</span>
+                        <span class="second-shot">秒拍</span>
+                        <span class="veriety-show">综艺</span>  
+                    </div>
+                    <div id="amid2-vedio">
+                        <div class="amid2-vedio-left">
+                            <div class="blank-vedio">
+                                <img  src="images/4.jpg"/>
+                                <p>picture-mid-21</p>
+                            </div>
+                            <div class="blank-vedio">
+                                <img  src="images/5.jpg"/>
+                                <p>picture-mid-22</p>
+                            </div>
+                        </div>
+                        <div class="amid2-vedio-right">
+                            <ul>
+                                <li>amiddle-21<li>
+                                <li>amiddle-22<li>
+                                <li>amiddle-23</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="amiddle-3">
+                    <div class="amiddle-top">
+                        <span class="like">猜你喜欢</span>
+                        <span class="hot-topic">热门话题</span>
+                    </div>
+                    amiddle-3
+                </div>        
+            </div>
+
+            <div class="part-a-right">
+                <ul id='ar-top-items'>
+                    <li class="main-news">新闻</li>
+                    <li class="local-news">看河南</li>
+                    <span class="adate">2016.4.19</span>
+                </ul>
+                <div id="ar-top-wrap">
+                    <div>
+                        <ul class="main-news-content">
+                            <li>main-news-2</li>
+                            <li>main-news-3</li>
+                            <li>main-news-4</li>
+                            <li>main-news-5</li>
+                            <li>main-news-6</li>
+                            <li>main-news-7</li>
+                            <br/>
+                            <li>main-news-1</li>
+                            <li>main-news-2</li>
+                            <li>main-news-3</li>
+                            <li>main-news-4</li>
+                            <li>main-news-5</li>
+                            <li>main-news-6</li>
+                            <li>main-news-7</li>
+                            <li>main-news-8</li>
+                            <li>main-news-9</li>
+                            <li>main-newsA</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="local-news-content" style="display:none">
+                            <li>lolcal-news-1</li>
+                            <li>local-news-2</li>
+                            <li>lolcal-news-3</li>
+                            <li>lolcal-news-4</li>
+                            <li>lolcal-news-5</li>
+                            <li>lolcal-news-6</li>
+                            <li>lolcal-news-7</li>
+                            <br/>
+                            <li>lolcal-news-1</li>
+                            <li>lolcal-news-2</li>
+                            <li>lolcal-news-3</li>
+                            <li>lolcal-news-4</li>
+                            <li>lolcal-news-5</li>
+                            <li>lolcal-news-6</li>
+                            <li>lolcal-news-7</li>
+                            <li>lolcal-news-8</li>
+                            <li>lolcal-news-9</li>
+                            <li>lolcal-newsA</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!--PART_A_END-->
+
+        
+
+<!-- city-union begin -->
+        <div class="city-union" data-sudaclick="blk_city_union">
+            <div class="clearfix1">
+                <p class="name">
+                    <a target="_blank" href="http://city.sina.com.cn/">
+                        新浪城市
+                    </a>
+                </p>
+                <div class="clist">
+                    <p id="regionWrap">
+                    </p>
+                    <p>
+                        <a href="http://nb.sina.com.cn/" target="_blank">宁波</a>
+                        <a target="_blank" href="http://dl.sina.com.cn/">大连</a>
+                        <a href="http://wx.sina.com.cn/" target="_blank">无锡</a>
+                        <a target="_blank" href="http://hlj.sina.com.cn/lyj/index.html ">冰城</a>
+                        <a href="http://jl.sina.com.cn/changchun/index.html" target="_blank">长春</a>
+                        <a target="_blank" href="http://www.xian-tourism.com/">西安</a>
+                        <a target="_blank" href="http://city.sina.com.cn/city/f/sjzwx.html">石家庄</a>
+                        <a target="_blank" href="http://www.jsjjw.cn">靖江</a>
+                        <a target="_blank" href="http://sina.haian.gov.cn/">海安</a>
+                        <a target="_blank" href="http://www.haimen.gov.cn/">海门</a>
+                        <a target="_blank" href="http://hlj.sina.com.cn/shangzhi/">尚志</a>
+                        <a href="http://weibo.com/hcxfjq" target="_blank">皇城相府</a>
+                        <a href="http://yn.sina.com.cn/travel/zt/honghechangjieyan/index.shtml"
+                        target="_blank">红河</a>
+                        <a href="http://www.qingdaochina.org/" target="_blank">青岛</a>
+                    </p>
+                </div>
+            </div>
+            <div class="clearfix2">
+                <p class="name" id="life"><a href="#nogo">生活热区</a></p>
+                <div class="clist">
+                    <p>
+                        <a target="_blank" href="http://sx.sina.com.cn/zt/city/xachanba/index.shtml">浐灞生态区</a>
+                        <a href="http://hlj.sina.com.cn/mdr/index.html" target="_blank">冰雪大世界</a>
+                        <a href="http://hlj.sina.com.cn/hanan/index.html" target="_blank">五色哈南</a>
+                        <a href="http://jl.sina.com.cn/jlsgjt/index.html" target="_blank">吉林森工</a>
+                        <a target="_blank" href="http://city.sina.com.cn/city/Declaration.html">[公告声明]</a>
+                    </p>
+                </div>
+            </div>
+        <!-- city-union end -->
+
+        <div>
+             <ul id="items" class="fn-clear">
+                <li class="bg">list1</li>
+                <li>list2</li>
+            </ul>
+            <div id="wrap">
+                <div style="display:block;">i'm list1</div>
+                <div>i'm list2</div>
+            </div>
+        </div>
+
+
+    </div>
+
+    
+
+     
+     
+         <script>
+            $(function(){
+                
+                $('#items li').on('click', function () {
+                    var _this = $(this);
+                    var index = _this.index();
+                    _this.addClass('bg').siblings().removeClass('bg');
+                    console.log(index)
+                    $('#wrap div').eq(index).show().siblings().hide();
+                })
+            })
+         </script>
+
+
+    <script type="text/javascript">
+        $(function() {
+
+            $('.mobile').hover(function(){
+                $('#mob').show();
+            },function(){
+                $('#mob').hide();
+            })
+            $('#mob').on('click','li',  function(){
+                var text = $(this).text();
+                $('.mobile .title').text(text);
+                $('#mob').hide();
+            })
+
+            $('.sinaweibo').hover(function(){
+                $('#weibo').show();
+            },function(){
+                $('#weibo').hide();
+            })
+            $('.sinablog').hover(function(){
+                $('#blog').show();
+            },function(){
+                $('#blog').hide();
+            })
+            $('.sinamailbox').hover(function(){
+                $('#mailbox').show();
+            },function(){
+                $('#mailbox').hide();
+            })
+            $('.search-type').hover(function(){
+                $('#search-weibo').show();
+            },function(){
+                $('#search-weibo').hide();
+            })
+
+            $('#al4-items li').hover(function () {
+                    var _this = $(this);
+                    var index = _this.index();
+                    _this.addClass('al4bord').siblings().removeClass('al4bord');
+                    console.log(index)
+                    $('#al4-wrap div').eq(index).show().siblings().hide();
+            })
+
+            $('#ar-top-items li').hover(function(){
+                var _this = $(this);
+                var index = _this.index();
+                _this.addClass('artbord').siblings().removeClass('artbord');
+                console.log(index)
+                $('#ar-top-wrap div').eq(index).show().siblings().hide();
+            })
+            
+
+            $.ajax({
+                url: 'data/datas.json',
+                data:'aa=11',
+                type: 'POST',
+                datType:'json',
+                success:function(data){
+                    console.log(data)
+                    for (var i = 0; i < data.region.length; i++) {
+                        $('#regionWrap').append('<a href="http://www.qingdaochina.org/" target="_blank">'+data.region[i]['city']+'</a>')
+                    };
+                },
+                error:function(){
+                    $('#regionWrap').html('对不起，没有加载到数据！')
+                }
+            })
+        })
+    </script>
+   </body>
+</html>
